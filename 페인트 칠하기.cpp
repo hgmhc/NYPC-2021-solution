@@ -31,7 +31,6 @@ vector<int> topology_sort() {
 int main() {
     cin.tie(0)->sync_with_stdio(0);
     int n, m; cin >> n >> m;
-    // 어차피 n이랑 m이랑 둘 다 60이니까
     int grid[100][100];
     REP(i,0,99) REP(j,0,99) cin >> grid[i][j];
     REP(i,0,99) {
